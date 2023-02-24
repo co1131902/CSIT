@@ -1,0 +1,18 @@
+Body {background-color: sandybrown; color: yellow; 
+	font-family: jokerman, arial, sans-serif; font-size: 1.2em; 
+	background-image: url(images/glassofmilkdrinkwithspices.jpg); 
+	background-repeat: repeat; height: 1920px; width: 1280px;}
+
+h1{color: red; text-align: center; text-transform: uppercase; 
+   border-style: groove; border-radius: 15px; box-shadow: 5px 5px 5px darkred;}
+
+h2{color: lawngreen; font-family: arial; text-shadow: 3px 3px 3px darkgreen;} 
+
+h3{color: blueviolet;} 
+
+li{font-family: cursive;}
+p{color: floralwhite; text-transform: uppercase;}
+
+a{text-decoration: none; color: lawngreen;}
+
+strong{color: lawngreen;}
