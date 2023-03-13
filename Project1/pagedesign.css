@@ -1,0 +1,43 @@
+#centercontent {margin-left: auto; 
+				margin-right: auto; 
+				width: 70%; border: solid;}
+
+#bodydiv {background-color: whitesmoke; padding: 5px;}
+
+#maindiv { float: left; width: 60%; padding: 10px;}
+
+#div{margin-left: 400px; width: 75%; padding: 0px;}
+
+#footer {clear: both; margin-top: 100px;}
+
+main {width: 85%;}
+
+body{background-image: url(images/backgroundimageofstars.jpg); 
+	background-repeat: repeat; 
+	height: 585px; width: 800px;}
+
+nav {padding: 10px; background-color: blueviolet; font-weight: bold; 
+	font-size: 20px; font-family: verdana, sans-serif;}
+
+nav ul {list-style-type: none;}
+
+nav li {display: inline;}
+
+a {text-decoration: none; color: black;}
+
+a:hover {text-decoration: none; color: pink;}
+
+
+h1{color: blueviolet; text-align: center; text-transform: uppercase; 
+   border-style: groove; border-radius: 15px; box-shadow: 5px 5px 5px darkred; 
+   padding: 14px; font-family: jokerman, sans-serif;}
+
+h2{color: blueviolet; font-family: arial; 
+	text-shadow: 3px 3px 3px lightpink;}
+
+h4{color: blueviolet; font-family: arial; 
+	text-shadow: 3px 3px 3px lightgrey;}
+
+p{font-family: Times New Roman, verdana, sans-serif;}
+
+footer{background-color: lightgrey; border-top: 5px; padding: 10px; font-size: smaller;}
