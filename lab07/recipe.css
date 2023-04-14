@@ -1,0 +1,173 @@
+body {background-color: sandybrown; color: yellow; 
+	font-family: jokerman, arial, sans-serif; font-size: 1.2em; 
+	background-image: url(images/glassofmilkdrinkwithspices.jpg); 
+	background-repeat: repeat; height: 1920px; width: 1280px;}
+
+h1{color: red; text-align: center; text-transform: uppercase; 
+   border-style: groove; border-radius: 15px; box-shadow: 5px 5px 5px darkred; 
+   padding: 14px;}
+
+h2{color: lawngreen; font-family: arial; 
+	text-shadow: 3px 3px 3px darkgreen;} 
+
+h3{color: blueviolet; font-family: arial, sans-serif;} 
+
+li{font-family: cursive;}
+
+p{color: floralwhite; text-transform: uppercase;}
+
+a{text-decoration: none; color: hotpink;}
+
+a:hover {text-decoration: none; color: lawngreen;}
+
+strong{color: lawngreen;}
+
+#contentcenter { margin-left: auto;
+					margin-right: auto;
+					width: 80%;}
+
+#headings {position: sticky;
+			top: 15px}
+
+#ingredients { float:left;
+				width: 600px ;
+				padding: 14px;
+				border-style: groove; 
+				border-radius: 15px; 
+				box-shadow: 5px 5px 5px sandybrown;}
+
+#instructions { margin-left: 900px;
+				width: 600px;
+				padding: 20px 4px 38px 14px;
+				border-style: groove; 
+				border-radius: 15px; 
+				box-shadow: 5px 5px 5px darkblue;}
+
+#footerandlinks { clear: both; margin-top: 70px }
+
+/*table configurations*/
+table {border-spacing: 0px 0px; 
+		border: 1.5px solid black; 
+		padding: 10px;} 
+
+/*table date font type and size*/
+td {font-family: arial, sans-serif; 
+	font-size:15px;}
+
+/*Alignment of daily value percentages*/
+tbody tr td:last-child {text-align: right; 
+				font-weight: bold;}
+
+/*Table header configurations*/
+th {font-family: arial, sans-serif; 
+	font-size:2em; 
+	text-align: left;}
+
+/*Protein - top and bottom border*/
+tbody tr:last-child td {padding:6px 0px 6px 0px; 
+								border-bottom: 10px solid black; 
+								border-top: 1px solid black}
+
+/*Serving Per Recipe - bottom border*/
+thead tr:nth-of-type(3) td {padding:0px 0px 6px 0px; 
+									border-bottom: 10px solid black; }
+
+/*Amount per serving - bottom border and padding top and bottom*/
+thead tr:nth-of-type(4) td {padding: 12px 0px 6px 0px;
+									 font-size: 12px; 
+									 border-bottom: 1px solid black;}
+
+/*Calories - padding top and bottom and border bottom*/
+thead tr:last-child td {padding: 6px 0px 6px 0px; 
+								font-size: 15px; 
+								border-bottom: 5px solid black;}
+
+/*Daily Value bottom border and padding top an bottom*/
+tbody tr:nth-of-type(1) td {padding: 6px 0px 6px 0px; 
+									border-bottom: 1px solid black;}
+
+/*Total Fat - padding top and bottom*/
+tbody tr:nth-of-type(2) td {padding: 6px 0px 6px 0px;}
+
+/*Saturated Fat - padding top and bottom and border top for cell 2*/
+tbody tr:nth-of-type(3) td:nth-of-type(2) {padding: 6px 0px 6px 0px; 
+														border-top: 1px solid black;}
+
+/*Saturated Fat - padding top and bottom and border top for cell 3*/
+tbody tr:nth-of-type(3) td:nth-of-type(3) {padding: 6px 0px 6px 0px;
+														 border-top: 1px solid black;}
+
+/*Saturated Fat - padding top and bottom and border top for cell 4*/
+tbody tr:nth-of-type(3) td:nth-of-type(4) {padding: 6px 0px 6px 0px;
+														 border-top: 1px solid black;}
+
+/*Cholesterol - padding top and bottom and border top and bottom*/
+tbody tr:nth-of-type(4) td {padding: 6px 0px 6px 0px; 
+									border-bottom: 1px solid black; 
+									border-top: 1px solid black;}
+
+/*Sodium - padding top and bottom and border bottom*/
+tbody tr:nth-of-type(5) td {padding: 6px 0px 6px 0px; 
+									border-bottom: 1px solid black;}
+
+/*Total Carbohydrates - padding top and bottom*/
+tbody tr:nth-of-type(6) td {padding: 6px 0px 6px 0px;}
+
+/*Dietary Fiber - padding top and bottom and border top for cell 2*/
+tbody tr:nth-of-type(7) td:nth-of-type(2) {padding: 6px 0px 6px 0px; 
+														border-top: 1px solid black;}
+
+/*Dietary Fiber - padding top and bottom and border top for cell 3*/
+tbody tr:nth-of-type(7) td:nth-of-type(3) {padding: 6px 0px 6px 0px; 
+														border-top: 1px solid black;}
+
+/*Dietary Fiber - padding top and bottom and border top for cell 4*/
+tbody tr:nth-of-type(7) td:nth-of-type(4) {padding: 6px 0px 6px 0px; 
+														border-top: 1px solid black;}
+
+/*Sugars - padding top and bottom and border top for cell 2*/
+tbody tr:nth-of-type(8) td:nth-of-type(2) {padding: 6px 0px 6px 0px; border-top: 1px solid black;}
+
+/*Sugars - padding top and bottom and border top for cell 3*/
+tbody tr:nth-of-type(8) td:nth-of-type(3) {padding: 6px 0px 6px 0px; border-top: 1px solid black;}
+
+/*Sugars - padding top and bottom and border top for cell 4*/
+tbody tr:nth-of-type(8) td:nth-of-type(4) {padding: 6px 0px 6px 0px; border-top: 1px solid black;}
+
+/*rolls configuration to hover*/
+tr:hover { background-color: lightcoral; }
+
+
+
+
+@media (max-width: 768px){
+	img { width: 50%; }
+	h1{ font-family: arial, sans-serif; }
+	p { font-family: arial, sans-serif; }
+	strong { color: darkred; }
+	main { margin: 0;}
+	header { grid-area: header; }
+	nav { grid-area: nav; }
+	div { grid-area: div; }
+	main { grid-area: main; }
+	footer { grid-area: footer; }
+	table { background-color: white; color: black;}
+	caption { color: greenyellow; padding-top: 20px;}
+	#footerandlinks { margin: 0; }
+	#ingredients { background-color: lightgrey; color: black; clear: both; width: auto;}
+	#instructions { margin: 0; padding: 5px; 
+						width: auto; background-color: mintcream; 
+						color: black; width: auto; }
+	#contentcenter { display: grid; grid-template: "header hearder"
+																	"div	div"
+																	"nav	nav"
+																	"main	main"
+																	"footer footer" 
+																	/ 60% }
+
+	}
+
+
+
+
+
