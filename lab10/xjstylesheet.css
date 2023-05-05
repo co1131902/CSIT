@@ -1,0 +1,42 @@
+#wrapper {margin-left: auto; margin-right: auto; width: 70%;}
+
+header {background-color: transparent; color: whitesmoke; border-style: groove; 
+	border-radius: 15px; box-shadow: 5px 5px 5px darkred; 
+   padding: 14px; text-align: center; font-family: jokerman, arial, sans-serif; 
+   font-size: 1.5em; text-shadow: 5px 5px 5px darkmagenta; 
+   animation-name: colors; animation-duration: 6s; animation-iteration-count: 4;}
+
+@keyframes colors { from{background-color: transparent;} 
+					to{background-color: cyan;} }
+
+body {background-image: url(images/imageoftitlenames.png); 
+	background-repeat: repeat; height: 400px; width: 400px;}
+
+main {background-color: whitesmoke; 
+	padding:8% 5% 3% 5%; border-style: groove; 
+	border-radius: 15px; 
+	box-shadow: 5px 5px 5px sandybrown;}
+
+h3 {font-size: 1.9em; font-family: Verdana, arial, sans-serif;}
+
+h5 {font-size: 1.3em; font-family: Cursive, arial, sans-serif;}
+
+p, li {font-size: 1.2em;}
+
+pre {font-size: 1.2em; padding: 2%; border-style: groove; 
+	border-radius: 15px; 
+	box-shadow: 5px 5px 5px darkred; overflow-x: auto; 
+	white-space: pre-wrap; 
+	word-wrap: break-word;}
+
+footer {background-color: whitesmoke; 
+	padding:1%; border-style: groove; 
+	border-radius: 15px; 
+	box-shadow: 5px 5px 5px sandybrown; text-align: center; font-family: cursive,arial, sans-serif; font-size: 1.3em; 
+	animation-name: buttoncolors; 
+	animation-duration: 8s; animation-iteration-count: infinite; color: darkred;}
+
+@keyframes buttoncolors { from{background-color: transparent;} 
+							to{background-color: whitesmoke;} }
+
+button {background-color: cyan; padding: 6px 12px 6px 12px; border-radius: 12px; font-weight: bold;}
